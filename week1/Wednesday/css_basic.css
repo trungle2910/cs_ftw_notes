@@ -1,0 +1,75 @@
+#assignment1 p {
+  color: royalblue;
+  font-family: italic, 20px, verdana;
+}
+#assignment1 p::first-letter {
+  font-size: 2em;
+  color: green;
+}
+#assignment1 #para1 {
+  color: red;
+}
+#assignment1 h1:first-child {
+  color: rgb(212, 167, 123);
+  visibility: hidden;
+}
+#assignment1 {
+  background-color: #fff;
+  background-image: linear-gradient(
+      90deg,
+      transparent 79px,
+      #abced4 79px,
+      #abced4 81px,
+      transparent 81px
+    ),
+    linear-gradient(#eee 0.1em, transparent 0.1em);
+  background-size: 100% 1.2em;
+  margin: 0 20%;
+  color: #8a2be2;
+}
+
+#assignment2 a:link {
+  color: blue;
+}
+
+#assignment2 a:visited {
+  color: yellow;
+}
+
+#assignment2 a:hover {
+  color: red;
+}
+#assignment2 a:active {
+  color: black;
+}
+#assignment3 {
+  font-size: 36px;
+}
+#assignment3 li {
+  font-size: 0.8em;
+}
+#assignment4 div {
+  background-color: greenyellow;
+  width: 80vmin;
+  height: 80vmin;
+}
+
+#assignment5 .box {
+  width: 50%;
+  padding: 50px;
+  border-width: 50px;
+  box-sizing: border-box;
+  border: crimson solid 50px;
+  text-transform: uppercase;
+}
+:root {
+  box-sizing: border-box;
+}
+::before,
+::after {
+  box-sizing: inherit;
+}
+#assignment5 .content {
+  box-sizing: content-box;
+  border-color: cyan;
+}

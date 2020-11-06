@@ -1,0 +1,25 @@
+* if padding/margin have 1 item look like      padding: 12px;
+    it mean the item use for all ( top bottom right left)
+* if padding/margin have 2 item look like      padding: 12px 20px;
+  fist number mean padding/margin in top and bottom 
+  second number mean padding/margin in left and right
+* if padding/margin have 1 item look like      padding: 0px 12px 21px 10px;
+  fist iteam mean top
+  second item mean right
+  third item mean bottom
+  forth item mean left
+* xài ctrl + d nếu muốn thay  những thông số giống nhau trong css ( giúp tạo ra 2 hoặc nhiều hơn những con trỏ chuột để có thể sửa nhiều mục 1 lần)
+* box-sizing: border-box; it mean the box size from left border to right border (include border, padding, content)
+* box-sizing: content-box, it mean the box size apply for content box
+* know 5 type possition (static,relative,absolute,fixed,sticky) and who this work
+* Stacking order with z-index
+*  Relative Lengths 
+    em	  Relative to the font-size of the element (2em means 2 times the size of the current font)	
+    ex	  Relative to the x-height of the current font (rarely used)	
+    ch	  Relative to the width of the "0" (zero)	
+    rem	  Relative to font-size of the root element	
+    vw	  Relative to 1% of the width of the viewport*	
+    vh	  Relative to 1% of the height of the viewport*	
+    vmin	Relative to 1% of viewport's* smaller dimension	
+    vmax	Relative to 1% of viewport's* larger dimension	
+    %	    Relative to the parent element  

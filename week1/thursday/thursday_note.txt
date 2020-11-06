@@ -1,0 +1,40 @@
+* understan and remember flex box witt https://flexboxfroggy.com/
+* flex 1 2 10px;  meaning the flex property is a shorthand for the flex-grow , flex-shrink , and the flex-basis properties., which means. flex-grow: 1; flex-shrink: 2; flex-basis: 10px
+* justify-content: sắp xếp các mục flex theo trục chính
+  -flex-start: Các hạng mục sẽ được sắp xếp về phía bên trái của hộp chứa.
+  -flex-end: Các hạng mục sẽ được sắp xếp về phía bên phải của hộp chứa.
+  -center: Các hạng mục sẽ được sắp xếp ở giữa chính của hộp chứa.
+  -space-between: Các hạng mục sẽ được trình bày với khoảng cách bằng nhau giữa chúng.
+  -space-around: Các hạng mục sẽ được trình bày với khoảng cách bằng nhau xung quanh chúng.
+* align-items: sắp xếp các mục flex theo trục dọc
+  -flex-start: Các hạng mục sẽ được sắp xếp phía trên của hộp chứa.
+  -flex-end: Các hạng mục sẽ được sắp xếp phía dưới cùng của hộp chứa.
+  -center: Các hạng mục sẽ được sắp xếp ở giữa chính của hộp chứa.
+  -baseline: Các hạng mục sẽ được hiển thị ở đường cơ bản của hộp chứa.
+  -stretch: Các hạng mục sẽ được kéo dài để phù hợp với hộp chứa.flex-start: Các hạng mục sẽ được sắp xếp phía trên của hộp chứa.
+  -flex-end: Các hạng mục sẽ được sắp xếp phía dưới cùng của hộp chứa.
+  -center: Các hạng mục sẽ được sắp xếp ở giữa chính của hộp chứa.
+  -baseline: Các hạng mục sẽ được hiển thị ở đường cơ bản của hộp chứa.
+  -stretch: Các hạng mục sẽ được kéo dài để phù hợp với hộp chứa.
+* flex-direction: xác định hướng của trục chính
+  -row: Các hạng mục được đặt cùng hướng với hướng của từ trong văn bản.
+  -row-reverse: Các hạng mục được đặt ngược hướng với hướng của từ trong văn bản.
+  -column: Các hạng mục được đặt từ trên xuống dưới.
+  -column-reverse: Các hạng mục được đặt từ dưới lên trên.
+* khi hướng flex là hàng dọc, justify-content thay đổi thành chiều dọc và align-items to chiều ngang.
+* order: khi đảo chiều của hộp chứa theo hàng ngang hay hàng dọc là không đủ. Trong những trường hợp này, chúng ta có thể áp dụng thuộc tính order cho từng hạng mục riêng lẻ. Theo mặc định, các hạng mục có giá trị là 0, nhưng chúng ta có thể thay đổi thuộc tính đó với một giá trị số nguyên dương hoặc âm khác.
+* align-self giống với align-items nhưng được dùng cho những hạng mục riêng biệt
+* flex-wrap xác định các hạng mục flex PHẢI trên 1 dòng có thể hoặc TÁCH thành nhiều dòng hay không
+  -nowrap: Mỗi hạng mục được dồn vào một hàng duy nhất.
+  -wrap: Các hạng mục quấn xung quanh để tạo thêm dòng.
+  -wrap-reverse: Các hạng mục quấn xung quanh để tạo thêm dòng ngược lại.
+* flex-flow viết tắt cho flex-direction và flex-wrap 
+* align-content sắp xếp các dòng trong hộp chứa khi có thêm không gian theo trục NGANG
+  -lex-start: Các dòng được dồn về phía trên cùng của hộp chứa.
+  -flex-end: Các dòng được dồn về phía dưới cùng của hộp chứa.
+  -center: Các dòng được dồn về trung tâm của hộp chứa.
+  -space-between: Các dòng được trình bày với khoảng cách bằng nhau giữa chúng.
+  -space-around: Các dòng sẽ được trình bày với khoảng cách bằng nhau xung quanh chúng.
+  -stretch: Các dòng sẽ được kéo dài để phù hợp với hộp chứa.
+  *** Điều này có thể gây nhầm lẫn, nhưng align-content xác định khoảng cách giữa các dòng, trong khi align-items xác định cách các hạng mục như một toàn thể được xếp trong hộp chứa. Khi chỉ có một dòng, align-content không có hiệu lực.
+  

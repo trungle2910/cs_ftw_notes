@@ -1,0 +1,16 @@
+** <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+  dùng để tạo link với https://pro.fontawesome.com dể sử dụng icon
+** .abx tạo div với class abc nhanh <div class="abc"></div>
+** button.abc tạo button với class abc nhanh <button class="abc"></button>
+*** có thể áp dụng tương tự với các tag khác
+** .search-box:hover {
+  box-shadow: px px px px;
+}
+** tạo shadow khi hover, có thể kham khảo trên https://htmlcheatsheet.com/css/ hoặc https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_ref_hover_shadow
+** https://app.netlify.com/ use with github to create the online website (we project)

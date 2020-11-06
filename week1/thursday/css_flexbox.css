@@ -1,0 +1,66 @@
+:root {
+  box-sizing: border-box;
+}
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+body {
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-size: 2em;
+  color: white;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+.container {
+  background-color: bisque;
+  height: 600px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+  /* justify-content: flex-end; */
+  /* justify-content: space-between; */
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* align-content: space-around; */
+}
+.box {
+  /* background-color: rebeccapurple; */
+  margin: 10px;
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+.box1 {
+  height: 100px;
+  width: 90px;
+  background-color: greenyellow;
+  /* align-self: flex-start; */
+  /* align-self: flex-end; */
+  /* align-self: center; */
+  /* align-self: stretch; */
+  order: 0;
+  flex: 2;
+}
+.box3 {
+  height: 100px;
+  width: 100px;
+  /* order: -1; */
+  background-color: red;
+}
+.box2 {
+  height: 80px;
+  width: 100px;
+  background-color: yellow;
+}
+
+.box4 {
+  height: 100px;
+  width: 150px;
+  background-color: blue;
+}
