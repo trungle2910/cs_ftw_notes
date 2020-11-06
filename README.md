@@ -7,4 +7,4 @@
 
 
 
-* i have problem small repo and i delete my old repo, now it new
+* i have small problem with my repo and i delete it, now it new
