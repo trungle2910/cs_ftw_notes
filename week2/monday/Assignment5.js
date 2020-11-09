@@ -10,10 +10,11 @@ function movie(){
 }
 console.log(movie());
 // Write a function that takes one argument, your name, and return your name in the middle of a sentence. "console.log" the result
-function myName(name){
-    return   "                          "+ name ;
-}
-console.log(myName("Trung"))
+function myName(name) {
+    console.log("Hello my name is " + name)
+    }
+    myName("Trung");
+      
 // Put the code of the previous Assignment 4 in functions that take the input numbers as arguments and return the expected output
 function myFunciton(a , b){
     var result=""; 
