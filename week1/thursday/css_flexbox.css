@@ -6,6 +6,12 @@
 ::after {
   box-sizing: inherit;
 }
+/* body::before {
+ content: "";
+ width: 10vw;
+ height: 10vw;
+ background-color: red;
+} */
 body {
   text-align: center;
   font-family: Roboto, sans-serif;
@@ -20,6 +26,7 @@ body {
   padding: 10px;
   display: flex;
   flex-direction: row;
+  
   /* flex-direction: row-reverse; */
   /* flex-direction: column; */
   /* flex-direction: column-reverse; */
