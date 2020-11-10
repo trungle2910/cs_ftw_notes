@@ -1,9 +1,10 @@
 
 // Write a function that does not take any argument, and it logs "Wow, it worked!" to the console
-function func() { 
-    alert("Wow, it worked!");
-  } 
-func(); 
+console.log("Assginment5")
+// function func() { 
+//     alert("Wow, it worked!");
+//   } 
+// func(); 
 // Write a function that does not take any argument, and it returns your favorite movie as a string. "console.log" the result
 function movie(){
     return "The Lord of the Rings";
