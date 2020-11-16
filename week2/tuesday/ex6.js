@@ -29,11 +29,11 @@ var variousThings = [
     var j = 0;
     for (var i = 0; i < arr.length; i++) {
       if (typeof arr[i] === "string") {
-        result[j] = arr[i];
-        j++;
+        result.push(arr[i]);
+        break;
       }
     }
-    console.log(result[0]);
+    console.log(result);
   }
   findFirstString(variousThings);
   

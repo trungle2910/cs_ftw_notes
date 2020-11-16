@@ -16,11 +16,15 @@ function getLeapYears(start, end){
 console.log(getLeapYears(1988, 2020));
 
 function reverseArray(arr){
-    arr = arr.reverse();
-    console.log(arr);
+  var aray = [];
+    for( i = arr.length -1; i >= 0; i--){
+        aray.push(arr[i]);
+    }
+    console.log(aray);
 }
 var fruits = ["apples", "oranges", "bananas", "lemon", "tomato", "carot"];
 reverseArray(fruits);
+console.log(fruits);
 
 
 function getRandomIntImprove(start, end){
@@ -39,7 +43,7 @@ function evenNumbers(){
         oddNumber.push(number);
       }
     }
-  console.log(`the number div 2 equal 0 : ${arrayNumbers}`);
-  console.log(`the odd number : ${oddNumber} `);
+    console.log(`the even number : ${arrayNumbers}`);
+    console.log(`the odd number : ${oddNumber} `);
 }
 evenNumbers()

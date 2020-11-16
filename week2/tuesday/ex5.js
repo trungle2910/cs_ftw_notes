@@ -21,24 +21,24 @@ function listOfTask(obj){
     var a=[];
     var b=[];
     var c=[];
-    for( var i = 0; i <=9; i++){
+    for( var i = 0; i < 10; i++){
 
         if(obj.tasks[i].status == 'Done'){
-            a.push(obj.tasks[i]);
+            a.push(obj.tasks[i].name);
         }
         else if(obj.tasks[i].status == 'In Progress'){
-             b.push(obj.tasks[i])
+             b.push(obj.tasks[i].name)
          }
         else if(obj.tasks[i].status == 'Not Started'){
-            c.push(obj.tasks[i])
+            c.push(obj.tasks[i].name)
         } 
     }   
-    console.log(`Done`)
-    console.log(a);
-    console.log(`In Progress`)
-    console.log(b);
-    console.log(`Not Started`)
-    console.log(c);
+    console.log(`Done`, a);
+
+    console.log(`In Progress`, b);
+
+    console.log(`Not Started`, c);
+
 }
 
 listOfTask(userA);

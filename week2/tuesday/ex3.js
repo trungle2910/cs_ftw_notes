@@ -25,7 +25,7 @@ function getRandomTimeWorking(start, end){
 function timeWorkingTwoYear(){  
     var workingHoursTwoYear = [];
     var money = 0;
-    for (var i = 0; i <= 249; i++){
+    for (var i = 0; i < 250; i++){
         var getTime = getRandomTimeWorking(6, 8);
         workingHoursTwoYear[i]= getTime;
         money = money +  getTime * 25;
