@@ -1,0 +1,8 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+#myCanvas {
+    background-color: lightgoldenrodyellow;
+    border: 3px red double;
+}

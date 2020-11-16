@@ -1,0 +1,7 @@
+**** fist we need a plan
+***draw a ball
+
+***move the ball
+
+
+**** nodes code in app.js

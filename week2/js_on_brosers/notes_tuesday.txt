@@ -1,0 +1,2 @@
+** getElementIdClassName return the array in class
+** 
