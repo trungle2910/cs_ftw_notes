@@ -1,4 +1,4 @@
-var arr =[19, 5, 42, 2, 77];
+
 var arr =[19, 5, 42, 2, 77];
 function sumTwoLowestNum(arr){
   var sum;
